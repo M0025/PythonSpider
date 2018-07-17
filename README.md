@@ -1,0 +1,3 @@
+# PythonSpider
+day1 利用urllib及urllib2初步认识爬虫
+day2 doubanTop250 利用BeautifulSoup爬取豆瓣电影250条数据
