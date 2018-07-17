@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>页面演示</title>
+    <style>
+        *{ /*匹配所有标签 通配符*/
+            font-size: 25px;
+        }
+        h1{ /*标签选择器*/
+            color: red
+        }
+        .div1{/*类选择器*/
+            background: green;
+        }
+        #name{  /*id选择器 */
+            border: 4px solid red;
+        }
+        a div{ /*匹配所有标签*/
+
+        }
+        a > div.div1{ /*后者中的前者，只匹配第一级字标签*/
+            color: #1c94c4;
+        }
+        a[title = "渣浪"]{
+            
+        }
+    </style>
+</head>
+<body>
+    <h1>演示HTML</h1>
+    <a href="http://www.baidu.com">百度</a>
+    <p>html简单测试演示，用html写一个简单的页面</p>
+    <p>简单的css</p>
+    <h1>标题2</h1>
+    <div class="div1">
+        <a href="http://www.baidu.com">这是一个去百度的div容器</a></div>
+    <h3 id="name">姓名：张三</h3>
+    <a href="http://www.sina.com" title="渣浪"></a>
+<p>bs基本上都用标签找</p>
+</body>
+</html>
